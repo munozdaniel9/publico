@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="referrer" content="no-referrer">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script>
+	/*
+
+		Se toma el 100% y se divide entre 20, eso da 5. Lo que implica que cada
+		posicion seria un 5%.
+
+		Por eso le asignamos de la siguiente manera
+			- 12 casillas al numero 1, lo que implica el 60%.
+			- 4 casillas al numero 2 lo que seria el 20%.
+			- 2 casillas al numero 3 lo que seria el 10%.
+			- 1 casillas al numero numero 4 lo que seria el 5%.
+			- 1 casillas al numero numero 5 lo que seria el 5%.
+
+		Para un total del 100%
+
+	*/
+
+		
+        var numero = [];
+
+        numero[0] = 1;
+        numero[1] = 1;
+        numero[2] = 1;
+        numero[3] = 1;
+        numero[4] = 1;
+        numero[5] = 1;
+        numero[6] = 1;
+        numero[7] = 1;
+        numero[8] = 1;
+        numero[9] = 1;            
+        numero[10] = 2;            
+        numero[11] = 2;            
+        numero[12] = 2;            
+        numero[13] = 2;            
+        numero[14] = 2;            
+        numero[15] = 2;            
+        numero[16] = 2;            
+        numero[17] = 2;            
+        numero[18] = 2;            
+        numero[19] = 2;  
+
+        /*
+        Seleccionamos un numero aleatorio del 0 al 20
+        Comprobamos que el numero sea valido, si el numero es invalido (undefined), le decimos que seleccione otro
+        Cuando el numero es valido, hacemos la condicion, si es 1 envia al sitio 1, si no envia al otro.
+        */
+
+        var aleatorio = Math.ceil(Math.random()*numero.length);
+              if (aleatorio == undefined) { 
+              	aleatorio = Math.ceil(Math.random()*numero.length);
+            }
+
+        if (numero[aleatorio] == 1) { 
+            window.location.href = "https://ckk.ai/ODDpqtKoLI";            
+        } else {
+            window.location.href = "https://siteforyou.me/go/mi2gmnzwge5dcmjvgu4a";            
+        }
+
+
+
+	</script>
+</body>
+</html>
